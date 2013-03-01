@@ -12,7 +12,7 @@ void setup(){ //初期設定
     pinMode(10, OUTPUT);
     pinMode(11, OUTPUT);
     pinMode(12, OUTPUT);
-    Serial.begin(9800);    
+    Serial.begin(9600);    
     //角度表示のためのシリアル通信開始
 }
 
@@ -104,6 +104,7 @@ void sonic(){
     Serial.println(distance0);
     Serial.println(distance1);
     Serial.println(usiro);
+    Serial.println("WRYYYYYYYYYYYYYY");
     */
     
     
